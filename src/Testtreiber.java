@@ -2,17 +2,16 @@ import java.util.Scanner;
 
 
 public class Testtreiber {
-
-    public static int main(String [] args){
+    public static void main(String[] args){
+        // Eingabe
+        System.out.println("Bitte geben Sie für die Berechnung der Zifferensumme eine ganze positive Zahl ein: ");
         Scanner sc = new Scanner(System.in);
-        int eingabeZahl;
-        int test = 0;
-        int ziffernsumme = 0;
-        eingabeZahl = sc.nextInt();
-       test = Auf_24_Methoden.berechnungZiffernsumme(ziffernsumme, eingabeZahl);
-        System.out.println(test);
+        int ziffernsumme2 = 0;
+        int eingabeZahl = sc.nextInt();
+       ziffernsumme2 = Auf_24_Methoden.berechnungZiffernsumme(eingabeZahl);
+        System.out.println(ziffernsumme2);
         sc.close();
-        return eingabeZahl;
+
     }
 
 }

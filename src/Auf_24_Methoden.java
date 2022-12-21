@@ -1,13 +1,13 @@
 
 public class Auf_24_Methoden {
-    public static int berechnungZiffernsumme(int eingabeZahl, int ziffernsumme) {
+    public static int berechnungZiffernsumme(int eingabeZahl) {
         int zaehler;
+        int ziffernsumme = 0;
         // Initialisierung mit 0 für Rückgabe im
         // Fehlerfall und bei Addition wichtig!
 
 
-        // Eingabe
-        System.out.println("Bitte geben Sie für die Berechnung der Zifferensumme eine ganze positive Zahl ein: ");
+
 
         zaehler = eingabeZahl;
 
