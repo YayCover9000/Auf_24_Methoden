@@ -1,8 +1,8 @@
 
 public class Auf_24_Methoden {
-    public static int berechnungZiffernsumme() {
+    public static int berechnungZiffernsumme(int eingabeZahl, int ziffernsumme) {
         int zaehler;
-        int ziffernsumme = 0; // Initialisierung mit 0 für Rückgabe im
+        // Initialisierung mit 0 für Rückgabe im
         // Fehlerfall und bei Addition wichtig!
 
 

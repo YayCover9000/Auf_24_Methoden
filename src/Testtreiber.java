@@ -1,17 +1,19 @@
 import java.util.Scanner;
-import java.lang.Math;
 
 
 public class Testtreiber {
 
-    public static int main(int ziffersumme){
+    public static int main(String [] args){
         Scanner sc = new Scanner(System.in);
-        int eingabeZahl = 0;
-        int test;
+        int eingabeZahl;
+        int test = 0;
+        int ziffernsumme = 0;
         eingabeZahl = sc.nextInt();
-       test = Auf_24_Methoden.berechnungZiffernsumme()
+       test = Auf_24_Methoden.berechnungZiffernsumme(ziffernsumme, eingabeZahl);
+        System.out.println(test);
         sc.close();
         return eingabeZahl;
     }
 
 }
+
